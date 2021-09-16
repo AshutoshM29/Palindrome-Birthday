@@ -1,7 +1,82 @@
+*{}
+
 @import url("https://fonts.googleapis.com/css2?family=Overlock:wght@400;700&display=swap");
+
+:root {
+    --color1 : #01366B;
+    --color3 : #A72815;
+    --color2 : #5CDC95;
+}
 
 body {
     font-family: 'Overlock', cursive;
     margin: auto;
     text-align: center;
+    background-image: linear-gradient(#5CDC95, #8EE5B1);
+
+}
+
+.head {
+    background-color: #01366B;
+    padding: 2rem;
+    font-size: x-large;
+    color: #EDF5E1;
+}
+
+.desc {
+    font-weight: 900;
+    font-size: x-large;
+    color: #01366B;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+#bday-input {
+    display: block;
+    margin: auto;
+    padding: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+#show-btn {
+    background-color: #01366B;
+    border-radius: 1rem;
+    color: white;
+    padding: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+#output {
+    margin: auto;
+    border: solid #01366B 2px;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    max-width: 60vh;
+}
+
+.bottom {
+    font-family: 'Overlock', cursive;
+    margin-top: 2rem;
+    background-color:var(--color1);
+    padding: 2rem;
+    font-size: x-large;
+    color: #EDF5E1;
+}
+
+.social-links {
+    padding-inline-start: 0px;
+}
+
+.list-item {
+    display: inline;
+}
+
+.social-img {
+    max-width: 50px;
+    padding: 1rem;
+}
+
+.made-with {
+    font-size: medium;
 }
