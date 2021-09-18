@@ -6,7 +6,7 @@
 https://pali-birthday.netlify.app
 
 # Technologies Used
-Javascript
-HTML
-CSS
-VS Code
+1. Javascript
+2. HTML
+3. CSS
+4. VS Code
